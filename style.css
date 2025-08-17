@@ -1,0 +1,372 @@
+/* ==========================================================================
+    Armin Selimović — CV
+   ========================================================================== */
+
+/* ==========================================================================
+    0) Design Tokens (CSS Variables)
+   -------------------------------------------------------------------------- */
+:root {
+  /* Brand & palette */
+  --brand: #6d28d9;       /* purple */
+  --brand2: #0284c7;      /* cyan   */
+  --brand-2: #0284c7;     /* alias for compatibility */
+
+  /* Gradient: hold purple longer before transitioning to cyan */
+  --grad-brand: linear-gradient(
+    135deg,
+    var(--brand) 0%,
+    var(--brand) 15%,
+    var(--brand2) 100%
+  );
+
+  --ink: #ffffff;         /* text on brand surfaces */
+  --text: #0f172a;        /* body text (slate-900)  */
+  --muted: #64748b;       /* secondary text         */
+
+  --bg: #fbfbfe;          /* page background */
+  --surface: #ffffff;     /* cards, panels  */
+  --surface-2: #f8fafc;   /* subtle surfaces */
+  --border: #e2e8f0;      /* hairline borders */
+
+  /* Radii & shadows */
+  --radius: 16px;
+  --r2: 20px;
+  --shadow: 0 18px 40px -12px rgba(0, 0, 0, .10);
+  --shadow-sm: 0 6px 18px rgba(0, 0, 0, .06);
+}
+
+/* Dark scheme overrides */
+.dark {
+  --text: #e5e7eb;
+  --muted: #9aa3b2;
+  --bg: #0f0f23;
+  --surface: #171726;
+  --surface-2: #1f2130;
+  --border: #2f3346;
+  --shadow: 0 24px 50px -12px rgba(0, 0, 0, .35);
+}
+
+/* ==========================================================================
+    1) Resets & Base
+   -------------------------------------------------------------------------- */
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
+body {
+  margin: 0;
+  font: clamp(15px, 1.9vw, 16px)/1.65 Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+}
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+
+/* ==========================================================================
+    2) Layout Helpers
+   -------------------------------------------------------------------------- */
+/* Page paddings & safe-area handling */
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 20px 14px calc(112px + env(safe-area-inset-bottom, 0px));
+}
+
+/* Simple grid helpers (optional utility classes) */
+.u-grid { display: grid; gap: 1rem; }
+.u-flex { display: flex; gap: .5rem; }
+.u-center { display: grid; place-items: center; }
+
+/* ==========================================================================
+    3) Header / Hero
+   -------------------------------------------------------------------------- */
+header.header-main {
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  padding: 28px;
+  margin-bottom: 22px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 920px) {
+  header.header-main {
+    padding: 40px;
+    gap: 28px;
+    grid-template-columns: 1.1fr;
+  }
+}
+
+.badge-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.header-actions {
+  display: grid;
+  gap: 18px; /* spacing between buttons and stats */
+  grid-column: 1 / -1; /* make it span both columns in header grid */
+}
+
+.profile-info {
+  display: grid;
+  grid-template-columns: 132px 1fr;
+  gap: 14px;
+  align-items: center;
+}
+.profile-photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  image-rendering: auto;
+}
+
+@media (min-width: 560px) {
+  .profile-info { grid-template-columns: 132px 1fr; }
+  .profile-photo { width: 132px; height: 132px; }
+}
+
+.header-name {
+  margin: 4px 0 2px;
+  font-weight: 900;
+  letter-spacing: -.02em;
+  font-size: clamp(26px, 6vw, 48px);
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header-role { opacity: .9; font-weight: 600; }
+
+.header-summary { margin-top: 10px; /*max-width: 65ch;*/ }
+
+/* Emoji Metrics — symmetric 3‑column block */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.stat-item {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface-2);
+  padding: 14px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: center;
+  min-height: 78px;
+}
+.stat-item .stat-icon {
+  width: 42px; height: 42px;
+  border-radius: 12px;
+  display: grid; place-items: center;
+  background: var(--grad-brand);
+  color: var(--ink);
+  font-size: 22px;
+}
+.stat-item .stat-label { font-weight: 800; font-size: 13px; letter-spacing: .02em; }
+.stat-item .stat-value { font-weight: 700; opacity: .9; }
+@media (max-width: 460px) { .stats-grid { grid-template-columns: 1fr; } }
+
+.contact-info {
+  display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px;
+}
+.contact-info a, .contact-info span { padding: 2px 6px; border-radius: 8px; }
+.contact-info a:hover { background: var(--surface-2); }
+
+/* ==========================================================================
+    4) Buttons
+   -------------------------------------------------------------------------- */
+/* Unified Button System */
+.btn-base {
+  --h: 46px;
+  --r: 16px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: var(--h);
+  padding: 12px 16px;
+  border-radius: var(--r);
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .15s, box-shadow .2s, border-color .2s;
+}
+.btn-base:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+  border-color: color-mix(in srgb, var(--brand) 40%, var(--border));
+}
+.btn-base:active { transform: translateY(0); }
+.btn-base.btn-primary { color: var(--ink); background: var(--grad-brand); border-color: transparent; }
+.btn-base.btn-ghost { background: color-mix(in srgb, var(--surface) 80%, transparent); }
+.btn-base.btn-outline { background: transparent; border-color: color-mix(in srgb, var(--brand) 45%, var(--border)); }
+.btn-base.btn-compact { --h: 42px; --r: 14px; padding: 10px 12px; }
+.btn-base.btn-icon { --h: 46px; width: 46px; padding: 0; aspect-ratio: 1/1; }
+.btn-base:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+
+/* Button grouping container */
+.btn-group {
+  display: grid; gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  padding: 10px;
+  background: var(--surface-2);
+}
+.btn-group .btn-base { width: 100%; }
+@media (min-width: 720px) { .btn-group { grid-template-columns: repeat(4, 1fr); } }
+
+/* ==========================================================================
+    5) Main Layout & Cards
+   -------------------------------------------------------------------------- */
+.layout-grid { display: grid; gap: 20px; grid-template-columns: 1fr; }
+/*@media (min-width: 1024px) { .layout-grid { gap: 22px; grid-template-columns: 1.45fr .95fr; } }*/
+
+.card-base {
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  background: var(--surface);
+  padding: 18px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 20px;
+}
+.section-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 10px; font-weight: 800;
+}
+
+/* Experience items (native <details>) */
+details.details-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin: 12px 0;
+  background: var(--surface-2);
+}
+details.details-item[open] { border-color: color-mix(in srgb, var(--brand) 45%, var(--border)); }
+details.details-item summary {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+details.details-item summary::-webkit-details-marker { display: none; }
+.details-period { font-size: 12.5px; color: var(--muted); }
+ul.list-clean { list-style: none; padding: 0; margin: 10px 0 0; }
+ul.list-clean li { margin: 8px 0; display: flex; gap: 8px; }
+
+/* Skills chips */
+.chip-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip-item {
+  padding: 8px 12px; min-height: 36px;
+  border-radius: 999px; border: 1px solid var(--border);
+  background: var(--surface-2); font-size: 13px;
+}
+
+/* Projects grid */
+.projects-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+@media (min-width: 760px) { .projects-grid { grid-template-columns: repeat(3, 1fr); } }
+.project-card {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface-2);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.project-card img { aspect-ratio: 16/9; object-fit: cover; }
+.project-card .project-body { padding: 12px; display: grid; gap: 8px; }
+.tag-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag-item {
+  font-size: 12px; padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+}
+
+/* ==========================================================================
+    6) Sticky Mobile Dock
+   -------------------------------------------------------------------------- */
+.dock-mobile {
+  position: fixed;
+  height: 60px;
+  font-size: 0.8rem;
+  left: 50%; transform: translateX(-50%);
+  bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+  z-index: 90;
+  display: none;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  padding: 5px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.dock-mobile .btn-base { border-radius: var(--radius); }
+.dock-mobile[data-visible="true"] { display: grid; }
+
+@media (max-width: 380px) { .dock-mobile { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 900px) { .dock-mobile { display: none !important; } }
+
+/* ==========================================================================
+    7) Desktop Floating Actions
+   -------------------------------------------------------------------------- */
+.dock-desktop {
+  position: fixed;
+  right: 22px; top: 50%; transform: translateY(-50%);
+  z-index: 80;
+  display: none; flex-direction: column; gap: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  padding: 10px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.dock-desktop .btn-base { border-radius: var(--radius); }
+@media (min-width: 900px) { .dock-desktop { display: flex; } }
+
+/* ==========================================================================
+    8) Footer
+   -------------------------------------------------------------------------- */
+.site-footer { margin-top: 16px; opacity: .7; font-size: 12px; text-align: center; }
+
+/* ==========================================================================
+    9) Print & Reduced Motion
+   -------------------------------------------------------------------------- */
+@media (print) {
+  .no-print, .dock-mobile, .dock-desktop { display: none !important; }
+  body { background: #fff; color: #000; }
+  header.header-main { box-shadow: none; }
+  details.details-item { border-color: #ddd; break-inside: avoid-page; page-break-inside: avoid; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; animation: none !important; }
+}
+
+ul.list-clean li {
+  display: block !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+}

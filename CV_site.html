@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Armin Selimović - CV</title>
+    <meta name="description" content="Junior Software Engineer aus Graz." />
+    
+    <!-- Open graph -->
+    <meta property="og:title" content="Armin Selimović - CV" />
+    <meta property="og:description" content="Junior Software Engineer aus Graz." />
+    <meta property="og:type" content="website" />
+
+    <!-- Color scheme settings  -->
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f0f23" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Person","name":"Armin Selimović","email":"mailto:armin.selimovic24@gmail.com","telephone":"+4367762873247","address":{"@type":"PostalAddress","addressLocality":"Graz","addressCountry":"AT"},"knowsLanguage":["Deutsch","Englisch","Kroatisch/Serbisch","Bosnisch"],"alumniOf":[{"@type":"CollegeOrUniversity","name":"Technische Universität Graz"},{"@type":"EducationalOrganization","name":"High School of Electrical Engineering, Tuzla"}],"hasOccupation":{"@type":"Occupation","name":"Aspiring Software Engineer","skills":"Python, C/C++, SQL, HTML/CSS, OOP, Data Science, Arduino, Raspberry Pi"}}
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header-main" id="hero">
+        <div>
+          <span class="badge-status">✨ Sofort verfügbar für Einstiegspositionen</span>
+          <div class="profile-info">
+            <img class="profile-photo" src="photos/armin_profile_photo.jpeg" sizes="132px" alt="Profilfoto von Armin Selimović" decoding="sync" fetchpriority="high">
+            <div>
+              <h1 class="header-name">Armin Selimović</h1>
+              <div class="header-role">Aspiring Software Engineer · Informatik-Student (TU Graz)</div>
+            </div>
+          </div>
+          <p class="header-summary">I enjoy exploring new ideas, whether through building small projects like this website or reading about random topics in neurology and psychology. In my free time, I also go to the gym (got to stay fit and prevent that backpain - I know you understand me here fellow engineer) and play computer games, both of which inspire my interest in technology, discipline, and problem-solving. While designing this site, I focused on making it visually appealing and mobile-friendly, and I enjoyed the creative process.</p>
+
+          <div class="contact-info">
+            <a href="tel:+4367762873247">📞 +43 677 62873247</a>
+            <a href="mailto:armin.selimovic24@gmail.com">✉️ armin.selimovic24@gmail.com</a>
+            <span>📍 Graz, Österreich</span>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <!-- Unified Button Container -->
+          <div class="btn-group no-print" role="group" aria-label="Aktionen">
+
+            <a href="assets/Armin_Selimovic_Lebenslauf" class="btn-base btn-primary" id="btnPrint">💾<span>CV</span></a>
+
+            <button class="btn-base btn-ghost" id="themeToggle" aria-pressed="false">🌗 <span>Thema</span></button>
+            <a class="btn-base btn-outline" id="vcard" download="armin-selimovic.vcf">📇 <span>vCard</span></a>
+            <button class="btn-base btn-ghost" id="copyEmail">✉️ <span>E-Mail</span></button>
+          </div>
+
+          <!-- Quick stats (languages, focus, Ops) -->
+          <div class="stats-grid" aria-label="Highlights">
+            <div class="stat-item" aria-label="Sprachen">
+              <div class="stat-icon" aria-hidden="true">🗣️</div>
+              <div>
+                <div class="stat-label">Sprachen</div>
+                <div class="stat-value">DE • EN • KR/SR • BS</div>
+              </div>
+            </div>
+            <div class="stat-item" aria-label="Fokus">
+              <div class="stat-icon" aria-hidden="true">🎯</div>
+              <div>
+                <div class="stat-label">Fokus</div>
+                <div class="stat-value">Web • Data • Systems</div>
+              </div>
+            </div>
+            <div class="stat-item" aria-label="Ops">
+              <div class="stat-icon" aria-hidden="true">🏭</div>
+              <div>
+                <div class="stat-label">Ops</div>
+                <div class="stat-value">Logistik‑Disziplin</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main id="main" class="layout-grid">
+        <section aria-labelledby="expTitle">
+          <div class="section-header">
+            <h2 id="expTitle">💼 Berufserfahrung</h2>
+            <div class="no-print" style="display:flex;gap:8px">
+              <button type="button" class="btn-base btn-compact" id="expandAll">Alle öffnen</button>
+              <button type="button" class="btn-base btn-compact" id="collapseAll">Alle schließen</button>
+            </div>
+          </div>
+
+          <details class="details-item">
+            <summary>Lieferant — Wienerwirt e.U., Graz <span class="details-period">06/2022 – 10/2022</span></summary>
+            <ul class="list-clean">
+              <li></li>
+            </ul>
+          </details>
+
+          <details class="details-item" open>
+            <summary>Logistik-Mitarbeiter — Temmel Logistic / Magna, Graz <span class="details-period">02/2022 – 04/2022</span></summary>
+            <ul class="list-clean">
+              <li>🗂️ Liefer- & Materiallogistik.</li>
+              <li>📦 Kommissionierung Lean-Management-System.</li>
+              <li>🤝 Organisation & Schnittstelle Produktionsteam.</li>
+            </ul>
+          </details>
+
+          <details class="details-item">
+            <summary>Logistik-Mitarbeiter — Temmel Logistic / Magna, Graz <span class="details-period">08/2019 – 10/2019</span></summary>
+            <ul class="list-clean">
+              <li>🗂️ Liefer- & Materiallogistik.</li>
+              <li>📦 Kommissionierung Lean-Management-System.</li>
+              <li>🤝 Organisation & Schnittstelle Produktionsteam.</li>
+            </ul>
+          </details>
+
+          <details class="details-item">
+            <summary>Disponent — MNM Transport Services LLC, Michigan (USA) <span class="details-period">03/2017 – 09/2017</span></summary>
+            <ul class="list-clean">
+              <li>📄 Auftragsverhandlung Güterverkehr.</li>
+              <li>🚛 Transport- & Warenlogistik.</li>
+            </ul>
+          </details>
+        </section>
+
+        <aside>
+          <section class="card-base" aria-labelledby="eduTitle">
+            <h2 id="eduTitle" class="section-header">🎓 Bildung</h2>
+            <details class="details-item" open>
+              <summary>B.Sc. Informatik (laufend) — TU Graz <span class="details-period">2021 – heute</span></summary>
+              <ul class="list-clean">
+                <li>✔️ Grundlagen:
+                  <span title = "Vermittelt Kenntnisse über effiziente Datenorganisation und Problemlösungsstrategien in der Informatik. Studierende lernen grundlegende Datenstrukturen (Listen, Bäume, Graphen etc.) und Algorithmendesign sowie die Analyse von Algorithmen."><u>Datenstrukturen</u>, <u>Algorithmen</u>,</span>
+                  <span title = "Mathematische Grundlagen (z. B. Logik, Mengenlehre, Graphentheorie, Wahrscheinlichkeitstheorie) bilden einen wichtigen Teil der Ausbildung. Diese Kenntnisse untermauern das Verständnis für Algorithmen und Informatiktheorie."><u>Statistik</u>, <u>Diskrete Mathematik</u></span>
+                </li>
+                <li>✔️ Softwaretechnik: C, C++,
+                  <span title = "Grundlagen der Usability und Interface-Entwicklung. Studierende lernen benutzerzentrierte UI/UX-Methoden (Usability Engineering, Prototyping, Usability Testing) kennen. Sie verstehen, wie man intuitive Benutzeroberflächen entwirft, evaluieren diese mittels heuristischer Evaluation und Thinking-Aloud-Tests."><u>HCI</u>,</span>
+                  OOP, Python,
+                  <span title = "Grundlegende Konzepte von Betriebssystemen, wie Prozess- und Thread-Management, Speicherverwaltung, Parallelität und Synchronisation, werden praxisnah vermittelt. Die Studierenden sammeln Erfahrung in systemnaher Programmierung und verstehen, wie Betriebssysteme Aufgaben planen und Ressourcen verwalten."><u>Betriebssysteme</u>,</span>
+                  <span title ="Ergänzend zur objektorientierten Programmierung wurden funktionale und logische Programmieransätze behandelt. Dies schult das Verständnis verschiedener Softwareparadigmen und befähigt, neue Programmiersprachen und Konzepte rasch zu erlernen."><u>Deklarative Programmierung</u></span>
+                </li>
+                <li>✔️ Informationsverarbeitung:
+                  <span title = "Entwurf und Verwaltung von Datenbanken sowie Datenhaltungssystemen. Studierende lernen relationale Datenbanken (ER-Modell, SQL, Relationale Algebra und Normalisierung) und modernes Data Management kennen. Dazu gehören NoSQL-Datenbanken, verteilte Dateisysteme, Datenstromverarbeitung und Techniken zur Integration und Verarbeitung großer Datenmengen"><u>Datenmanagement</u>,
+                  </span>
+
+                  SQL, NoSQL,
+
+                  <span title = "Grundlagen der Datenaufbereitung, Exploration, statistischen Analyse und Modellbildung. Beinhaltet Data Mining, Klassifikation, Clustering, Modellbewertung und Datenvisualisierung."><u>Data Science</u>, <u>Machine Learning</u></span>
+                </li>
+                <li>
+                  ✔️ Grafik & Bildverarbeitung:
+                  <span title = "Einführung in 2D- und 3D-Grafikpipelines, Transformationen, Beleuchtungsmodelle und Renderingverfahren. Beinhaltet Geometrieverarbeitung, Shader-Programmierung, Bildsynthese und Grundlagen der Echtzeit- sowie Raytracing-Techniken."><u>Computergrafik</u>, </span>
+                  <span title = "Grundlagen der Bildverarbeitung und Mustererkennung. Themen umfassen Filterung, Kantenerkennung, Merkmalsextraktion, Bildsegmentierung sowie 3D-Rekonstruktion aus Bilddaten."><u>Computer Vision</u></span>
+                </li>
+              </ul>
+            </details>
+            <details class="details-item">
+              <summary>Computer-Ingenieur (Diplom) — HS Elektrotechnik, Tuzla <span class="details-period">2014 – 2018</span></summary>
+              <ul class="list-clean">
+                <li>✔️ Programmiersprachen: C, C++, C#, Flow Code etc.</li>
+                <li>✔️ Webentwicklung: HTML, CSS</li>
+                <li>✔️ Datenbanken: SQL, PostgreSQL</li>
+                <li>✔️ Technologien: Arduino, Raspberry Pi, 3D Printing etc.</li>
+              </ul>
+            </details>
+          </section>
+
+          <section class="card-base" aria-labelledby="skillsTitle">
+            <h2 id="skillsTitle" class="section-header">🛠️ Skills & Sprachen</h2>
+            <div class="chip-list">
+              <span class="chip-item">Python</span><span class="chip-item">C/C++</span><span class="chip-item">SQL</span><span class="chip-item">HTML/CSS</span>
+              <span class="chip-item">OOP</span><span class="chip-item">Java</span><span class="chip-item">JavaScript</span><span class="chip-item">TypeScript</span><span class="chip-item">React</span>
+              <span class="chip-item">Git</span><span class="chip-item">Linux</span><span class="chip-item">Data Science</span><span class="chip-item">Arduino</span><span class="chip-item">Raspberry Pi</span>
+            </div>
+            <div class="chip-list" style="margin-top:10px">
+              <span class="chip-item">Deutsch (C1)</span><span class="chip-item">Englisch (C1)</span><span class="chip-item">Kroatisch/Serbisch (C1)</span><span class="chip-item">Bosnisch (Muttersprache)</span>
+            </div>
+          </section>
+
+          <section class="card-base" aria-labelledby="projTitle">
+            <div class="section-header">
+              <h2 id="projTitle">🧩 GitHub‑Projekte</h2>
+            </div>
+            <div class="projects-grid">
+              <article class="project-card">
+                <img src="https://picsum.photos/seed/logistics/640/360" alt="Projektvorschau Logistics Optimizer">
+                <div class="project-body">
+                  <div class="fw-700">🐍 Logistics Optimizer (Python)</div>
+                  <div class="tag-list"><span class="tag-item">CLI</span><span class="tag-item">Routing</span><span class="tag-item">CSV</span></div>
+                  <div>Durchsatz +15%, Wartezeit −30%</div>
+                  <div class="btn-group" style="grid-template-columns:repeat(2,1fr);padding:8px">
+                    <a class="btn-base btn-outline" href="#" aria-label="GitHub öffnen">GitHub</a>
+                    <a class="btn-base btn-ghost" href="#" aria-label="Live-Demo">Demo</a>
+                  </div>
+                </div>
+              </article>
+              <article class="project-card">
+                <img src="https://picsum.photos/seed/queue/640/360" alt="Projektvorschau Queue Simulator">
+                <div class="project-body">
+                  <div class="fw-700">⚡ Queue Simulator (C++)</div>
+                  <div class="tag-list"><span class="tag-item">STL</span><span class="tag-item">Threads</span><span class="tag-item">Benchmark</span></div>
+                  <div>2.5× schneller als Baseline</div>
+                  <div class="btn-group" style="grid-template-columns:repeat(2,1fr);padding:8px">
+                    <a class="btn-base btn-outline" href="#" aria-label="GitHub öffnen">GitHub</a>
+                    <a class="btn-base btn-ghost" href="#" aria-label="Benchmark">Bench</a>
+                  </div>
+                </div>
+              </article>
+              <article class="project-card">
+                <img src="https://picsum.photos/seed/etl/640/360" alt="Projektvorschau ETL Pipeline">
+                <div class="project-body">
+                  <div class="fw-700">📊 ETL Pipeline (Python/SQL)</div>
+                  <div class="tag-list"><span class="tag-item">SQLite</span><span class="tag-item">Dash</span><span class="tag-item">CSV</span></div>
+                  <div>Verarbeitung 5× schneller</div>
+                  <div class="btn-group" style="grid-template-columns:repeat(2,1fr);padding:8px">
+                    <a class="btn-base btn-outline" href="#" aria-label="GitHub öffnen">GitHub</a>
+                    <a class="btn-base btn-ghost" href="#" aria-label="Screenshots">Shots</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="card-base" aria-labelledby="blogTitle">
+            <div class="section-header">
+              <h2 id="blogTitle">Persönlicher starke</h2>
+            </div>
+            <ul class="list-clean">
+              <li>flexibel & belastbar </li>
+              <li>lernfähig & selbstständig</li>
+              <li>sozial & kommunikativ</li>
+              <li>pünktlich & zuverlässig</li>
+              <li>aufmerksam & fokussiert</li>
+              <li>kooperativ & aufgeschlossen</li>
+            </ul>
+          </section>
+        </aside>
+      </main>
+
+      <footer class="site-footer">Mobile‑First • Symmetric Emoji Metrics • GitHub Projekte • Blog Platzhalter • Sticky Dock • Desktop Action Column</footer>
+    </div>
+
+    <nav class="dock-mobile no-print" role="navigation" aria-label="Schnellaktionen (mobil)">
+      <a class="btn-base btn-primary" href="mailto:armin.selimovic24@gmail.com" aria-label="Kontakt">Kontakt</a>
+      <a class="btn-base" href="tel:+4367762873247" aria-label="Anrufen">Anrufen</a>
+      <a class="btn-base" href="assets/Armin_Selimovic_Lebenslauf" aria-label="PDF">CV</a>
+
+      <a class="btn-base btn-outline" id="dockVcard" download="armin-selimovic.vcf" aria-label="vCard">vCard</a>
+    </nav>
+
+    <nav class="dock-desktop no-print" role="navigation" aria-label="Schnellaktionen (Desktop)">
+      <a class="btn-base btn-icon btn-primary" href="mailto:armin.selimovic24@gmail.com" title="E-Mail">✉️</a>
+      <a class="btn-base btn-icon" href="tel:+4367762873247" title="Anrufen">📞</a>
+      <a class="btn-base btn-icon" href="assets/Armin_Selimovic_Lebenslauf" title="Lebenslauf">🖨️</a>
+      <a class="btn-base btn-icon btn-outline" id="deskVcard" download="armin-selimovic.vcf" title="vCard">📇</a>
+    </nav>
+
+    <div id="toast" style="position:fixed;left:50%;transform:translateX(-50%);bottom:96px;background:var(--surface);border:1px solid var(--border);padding:10px 14px;border-radius:14px;box-shadow:var(--shadow);font-weight:700" hidden></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
