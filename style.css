@@ -76,6 +76,8 @@ img { max-width: 100%; display: block; }
 .u-flex { display: flex; gap: .5rem; }
 .u-center { display: grid; place-items: center; }
 
+
+
 /* ==========================================================================
     3) Header / Hero
    -------------------------------------------------------------------------- */
@@ -285,17 +287,67 @@ ul.list-clean li { margin: 8px 0; display: flex; gap: 8px; }
 }
 
 /* Projects grid */
-.projects-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
-@media (min-width: 760px) { .projects-grid { grid-template-columns: repeat(3, 1fr); } }
+.projects-grid {
+  display: flex;             /* row of cards */
+  gap: 1rem;
+  overflow-x: auto;          /* enable scrolling */
+  scroll-snap-type: x mandatory; /* snap to cards */
+  padding-bottom: 0.5rem;
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+  }
+@media (min-width: 760px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  
+}
+.projects-table {
+  display: grid;
+  grid-template-columns: auto 1fr auto; /* side buttons auto, middle expands */
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-btn {
+  background: #222;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .btn-scroll {
+    display: none;
+  }
+
+  .project-card {
+    flex: 0 0 90%;         /* take most of the screen width */
+    max-width: 90%;        /* prevent overflow */
+  }
+}
+
 .project-card {
   border: 1px solid var(--border);
   border-radius: 16px;
   background: var(--surface-2);
   overflow: hidden;
   display: flex; flex-direction: column;
+  flex: 0 0 300px;           /* fixed card width */
+  scroll-snap-align: start;
+
 }
 .project-card img { aspect-ratio: 16/9; object-fit: cover; }
-.project-card .project-body { padding: 12px; display: grid; gap: 8px; }
+.project-card .project-body { padding: 12px; display: grid; gap: 8px;  }
 .tag-list { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag-item {
   font-size: 12px; padding: 4px 8px;
