@@ -348,6 +348,8 @@ ul.list-clean li { margin: 8px 0; display: flex; gap: 8px; }
   padding: 0.5rem 0.75rem;
   border-radius: 0.5rem;
   cursor: pointer;
+  font-size: 1.5rem;   /* make arrow bigger if needed */
+  color: inherit;      /* use the current text color of theme */
 }
 
 @media (max-width: 600px) {
