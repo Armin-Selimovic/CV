@@ -5,7 +5,7 @@ export const projects = [
 		name: "CV Site",
 		alt: "CV site img",
 		img: "images/projects/my_cv_site.jpg",
-		git_link: "https://github.com/Armin-Selimovic/My_CV_site",
+		git_link: "https://github.com/Armin-Selimovic/CV",
 		description: "My very own CV site. The site you're currently looking at.",
 		tags: [
 			"HTML",

@@ -10,9 +10,8 @@ export function print_projects() {
                     <div class="project_card_name">${element.name}</div>
                     <div class="tag-list">${getTags(element)}</div>
                     <div>${element.description}</div>
-                    <div class="btn-group" style="grid-template-columns:repeat(2,1fr);padding:8px">
+                    <div class="btn-group" style="grid-template-columns:repeat(1,1fr);padding:8px">
                       <a class="btn-base btn-outline" href="${element.git_link}" target="_blank" aria-label="GitHub öffnen">GitHub</a>
-                      <a class="btn-base btn-ghost" href="#" aria-label="Live-Demo">Demo</a>
                     </div>
                   </div>
                 </article>`
