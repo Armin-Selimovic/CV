@@ -7,7 +7,7 @@ export function print_projects() {
 	projects_html += ` <article class="project-card">
                   <img src="${element.img}" alt="${element.alt}">
                   <div class="project-body">
-                    <div class="fw-700">${element.name}</div>
+                    <div class="project_card_name">${element.name}</div>
                     <div class="tag-list">${getTags(element)}</div>
                     <div>${element.description}</div>
                     <div class="btn-group" style="grid-template-columns:repeat(2,1fr);padding:8px">

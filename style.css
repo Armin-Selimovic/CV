@@ -288,6 +288,28 @@ ul.list-clean li { margin: 8px 0; display: flex; gap: 8px; }
   background: var(--surface-2); font-size: 13px;
 }
 
+.tag-list {
+  display: flex;          /* put tags in a row */
+  flex-wrap: wrap;        /* allow wrapping if too many */
+  gap: 6px;               /* space between tags */
+  align-self: flex-start; /* prevent stretching across full width */
+}
+
+.project-body .btn-group {
+  margin-top: auto;      /* pushes it all the way to the bottom */
+}
+
+.project-body {
+  flex: 1;
+}
+
+.project-body .project_card_name {
+  font-size: 1.1rem;   /* slightly bigger than normal text */
+  font-weight: 700;    /* keep the bold effect */
+  margin-bottom: 6px;  /* little spacing under the title */
+  line-height: 1.3;    /* better readability */
+}
+
 /* Projects grid */
 .projects-grid {
   display: flex;             /* row of cards */
@@ -303,6 +325,8 @@ ul.list-clean li { margin: 8px 0; display: flex; gap: 8px; }
     
   }
 }
+
+
 .projects-table {
   display: grid;
   grid-template-columns: auto 1fr auto; /* side buttons auto, middle expands */
@@ -348,8 +372,9 @@ ul.list-clean li { margin: 8px 0; display: flex; gap: 8px; }
 
 }
 .project-card img { aspect-ratio: 16/9; object-fit: cover; }
-.project-card .project-body { padding: 12px; display: grid; gap: 8px;  }
+.project-card .project-body { padding: 12px; display: grid; gap: 8px; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 6px; }
+
 .tag-item {
   font-size: 12px; padding: 4px 8px;
   border: 1px solid var(--border);
