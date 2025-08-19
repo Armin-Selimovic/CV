@@ -13,6 +13,7 @@ const vcard = `BEGIN:VCARD
   TITLE:Aspiring Software Engineer
   END:VCARD`;
 
+/* ========================================================================== */
 //--vCard answers---
 //
 ['vcard','dockVcard','deskVcard'].forEach( id => {
@@ -22,6 +23,7 @@ const vcard = `BEGIN:VCARD
     a.href='data:text/vcard;charset=utf-8,'+ encodeURIComponent(vcard);
 });
 
+/* ========================================================================== */
 //----Site theme-----
 //
 function initThemeToggle() {
@@ -49,6 +51,7 @@ function initThemeToggle() {
 
 initThemeToggle();
 
+/* ========================================================================== */
 //----Copy email and pop message
 //
 function popup_Msg(message) {
@@ -63,8 +66,8 @@ document.getElementById('copyEmail')?.addEventListener('click', async()=>{
     popup_Msg('E-Mail kopiert');
   } catch {}
 });
-//----------------------------
 
+/* ========================================================================== */
 //----Dock functions----------
 //
 function showDock(){
@@ -84,8 +87,9 @@ window.addEventListener('scroll', checkDock, { passive:true });
 if(window.innerWidth < 900){
   setTimeout(showDock, 700);
 }
-//----------------------------
-
+/* ========================================================================== */
+// Details buttons
+//
 const openAllBtn = document.getElementById('expandAll');
 const closeAllBtn = document.getElementById('collapseAll');
 
@@ -105,6 +109,7 @@ closeAllBtn.addEventListener('click', () => {
   });
 });
 
+/* ========================================================================== */
 //----Generated HTML-----
 //
 document.querySelector('.projects-grid').innerHTML = print_projects();
@@ -117,4 +122,3 @@ function print_skills() {
 }
 
 print_skills()
-//----------------------------

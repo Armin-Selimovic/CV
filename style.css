@@ -210,7 +210,9 @@ header.header-main {
   font-weight: 700;
   cursor: pointer;
   transition: transform .15s, box-shadow .2s, border-color .2s;
+  color: var(--text);
 }
+
 .btn-base:hover {
   transform: translateY(-1px);
   box-shadow: var(--shadow-sm);
