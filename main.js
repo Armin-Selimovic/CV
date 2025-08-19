@@ -1,4 +1,6 @@
-import { print_projects } from './projects.js';
+import { print_projects } from './init_projects.js';
+import { skills } from './data/skills_data.js';
+import { print_jobs } from './init_jobs.js';
 
 const email = 'armin.selimovic24@gmail.com';
 const phone = '+4367762873247';
@@ -20,8 +22,8 @@ const vcard = `BEGIN:VCARD
     a.href='data:text/vcard;charset=utf-8,'+ encodeURIComponent(vcard);
 });
 
-document.querySelector('.projects-grid').innerHTML = print_projects();
-
+//----Site theme-----
+//
 function initThemeToggle() {
   const root = document.documentElement;
   const prefersDark = matchMedia('(prefers-color-scheme: dark)').matches;
@@ -84,20 +86,35 @@ if(window.innerWidth < 900){
 }
 //----------------------------
 
-// Expand buttons
 const openAllBtn = document.getElementById('expandAll');
 const closeAllBtn = document.getElementById('collapseAll');
 
-// Expand all details
+//----Expand all details----
+//
 openAllBtn.addEventListener('click', () => {
   document.querySelectorAll('details').forEach(detail => {
     detail.setAttribute('open', '');
   });
 });
 
-// Collapse all details
+//----Collapse all details----
+//
 closeAllBtn.addEventListener('click', () => {
   document.querySelectorAll('details').forEach(detail => {
     detail.removeAttribute('open');
   });
 });
+
+//----Generated HTML-----
+//
+document.querySelector('.projects-grid').innerHTML = print_projects();
+document.querySelector('.jobs-js').innerHTML = print_jobs();
+
+function print_skills() {
+  let skills_html = '';
+  skills.forEach( skill => { skills_html += `<span class="chip-item">${skill}</span>` })
+  document.querySelector('.skills-js').innerHTML = skills_html;
+}
+
+print_skills()
+//----------------------------

@@ -40,7 +40,7 @@
               <div class="header-role">Aspiring Software Engineer · Informatik-Student (TU Graz)</div>
             </div>
           </div>
-          <p class="header-summary">I enjoy exploring new ideas, whether through building small projects like this website or reading about random topics in neurology and psychology. In my free time, I also go to the gym (got to stay fit and prevent that backpain - I know you understand me here fellow engineer) and play computer games, both of which inspire my interest in technology, discipline, and problem-solving. While designing this site, I focused on making it visually appealing and mobile-friendly, and I enjoyed the creative process.</p>
+          <p class="header-summary" id = "header-description-js"> </p>
 
           <div class="contact-info">
             <a href="tel:+4367762873247">📞 +43 677 62873247</a>
@@ -97,38 +97,7 @@
             </div>
           </div>
 
-          <details class="details-item">
-            <summary>Lieferant — Wienerwirt e.U., Graz <span class="details-period">06/2022 – 10/2022</span></summary>
-            <ul class="list-clean">
-              <li></li>
-            </ul>
-          </details>
-
-          <details class="details-item" open>
-            <summary>Logistik-Mitarbeiter — Temmel Logistic / Magna, Graz <span class="details-period">02/2022 – 04/2022</span></summary>
-            <ul class="list-clean">
-              <li>🗂️ Liefer- & Materiallogistik.</li>
-              <li>📦 Kommissionierung Lean-Management-System.</li>
-              <li>🤝 Organisation & Schnittstelle Produktionsteam.</li>
-            </ul>
-          </details>
-
-          <details class="details-item">
-            <summary>Logistik-Mitarbeiter — Temmel Logistic / Magna, Graz <span class="details-period">08/2019 – 10/2019</span></summary>
-            <ul class="list-clean">
-              <li>🗂️ Liefer- & Materiallogistik.</li>
-              <li>📦 Kommissionierung Lean-Management-System.</li>
-              <li>🤝 Organisation & Schnittstelle Produktionsteam.</li>
-            </ul>
-          </details>
-
-          <details class="details-item">
-            <summary>Disponent — MNM Transport Services LLC, Michigan (USA) <span class="details-period">03/2017 – 09/2017</span></summary>
-            <ul class="list-clean">
-              <li>📄 Auftragsverhandlung Güterverkehr.</li>
-              <li>🚛 Transport- & Warenlogistik.</li>
-            </ul>
-          </details>
+          <div class = 'jobs-js'> </div>
         </section>
 
         <aside>
@@ -138,39 +107,25 @@
               <summary>B.Sc. Informatik (laufend) — TU Graz <span class="details-period">2021 – heute</span></summary>
               <ul class="list-clean">
                 <li>✔️ Grundlagen:
-                  <span title = "Vermittelt Kenntnisse über effiziente Datenorganisation und Problemlösungsstrategien in der Informatik. Studierende lernen grundlegende Datenstrukturen (Listen, Bäume, Graphen etc.) und Algorithmendesign sowie die Analyse von Algorithmen."><u>Datenstrukturen</u>, <u>Algorithmen</u>,</span>
-                  <span title = "Mathematische Grundlagen (z. B. Logik, Mengenlehre, Graphentheorie, Wahrscheinlichkeitstheorie) bilden einen wichtigen Teil der Ausbildung. Diese Kenntnisse untermauern das Verständnis für Algorithmen und Informatiktheorie."><u>Statistik</u>, <u>Diskrete Mathematik</u></span>
+                  <span id = 'dat-alg-desc-js'><u>Datenstrukturen</u>, <u>Algorithmen</u>,</span>
+                  <span id = 'stat-disc-desc-js' ><u>Statistik</u>, <u>Diskrete Mathematik</u></span>
                 </li>
                 <li>✔️ Softwaretechnik: C, C++,
-                  <span title = "Grundlagen der Usability und Interface-Entwicklung. Studierende lernen benutzerzentrierte UI/UX-Methoden (Usability Engineering, Prototyping, Usability Testing) kennen. Sie verstehen, wie man intuitive Benutzeroberflächen entwirft, evaluieren diese mittels heuristischer Evaluation und Thinking-Aloud-Tests."><u>HCI</u>,</span>
+                  <span id = 'hci-desc-js' ><u>HCI</u>,</span>
                   OOP, Python,
-                  <span title = "Grundlegende Konzepte von Betriebssystemen, wie Prozess- und Thread-Management, Speicherverwaltung, Parallelität und Synchronisation, werden praxisnah vermittelt. Die Studierenden sammeln Erfahrung in systemnaher Programmierung und verstehen, wie Betriebssysteme Aufgaben planen und Ressourcen verwalten."><u>Betriebssysteme</u>,</span>
-                  <span title ="Ergänzend zur objektorientierten Programmierung wurden funktionale und logische Programmieransätze behandelt. Dies schult das Verständnis verschiedener Softwareparadigmen und befähigt, neue Programmiersprachen und Konzepte rasch zu erlernen."><u>Deklarative Programmierung</u></span>
+                  <span id = 'bet-desc-js'><u>Betriebssysteme</u>,</span>
+                  <span id = 'dek-desc-js'><u>Deklarative Programmierung</u></span>
                 </li>
                 <li>✔️ Informationsverarbeitung:
-                  <span title = "We dived deep into system-level programming concepts, refining and understanding of low-level operations in C/C++. Topics include:
-
-                  -Memory behavior, dynamic allocation, and fault-aware memory management
-                  -Process and thread control using POSIX APIs: fork, exec, waitpid, pipes, threads
-                  -Synchronization mechanisms: semaphores, mutexes, condition variables, spinlocks
-                  -Memory-mapped I/O and shared memory with POSIX
-
-                  Learned:
-                  - A solid grasp of system-level OS interfaces in C and C++
-                  - Mastery over synchronization constructs and inter-process/thread communication
-                  - Preparedness for advanced OS studies and real-world systems programming"><u>Low level programming</u></span>,
-
-                  <span title = "Entwurf und Verwaltung von Datenbanken sowie Datenhaltungssystemen. Studierende lernen relationale Datenbanken (ER-Modell, SQL, Relationale Algebra und Normalisierung) und modernes Data Management kennen. Dazu gehören NoSQL-Datenbanken, verteilte Dateisysteme, Datenstromverarbeitung und Techniken zur Integration und Verarbeitung großer Datenmengen"><u>Datenmanagement</u>,
-                  </span>
-
+                  <span id = 'llp-desc-js' ><u>Low level programming</u></span>,
+                  <span id = 'dat-desc-js' ><u>Datenmanagement</u>,</span>
                   SQL, NoSQL,
-
-                  <span title = "Grundlagen der Datenaufbereitung, Exploration, statistischen Analyse und Modellbildung. Beinhaltet Data Mining, Klassifikation, Clustering, Modellbewertung und Datenvisualisierung."><u>Data Science</u>, <u>Machine Learning</u></span>
+                  <span id = 'data-mach-desc-js' ><u>Data Science</u>, <u>Machine Learning</u></span>
                 </li>
                 <li>
                   ✔️ Grafik & Bildverarbeitung:
-                  <span title = "Einführung in 2D- und 3D-Grafikpipelines, Transformationen, Beleuchtungsmodelle und Renderingverfahren. Beinhaltet Geometrieverarbeitung, Shader-Programmierung, Bildsynthese und Grundlagen der Echtzeit- sowie Raytracing-Techniken."><u>Computergrafik</u>, </span>
-                  <span title = "Grundlagen der Bildverarbeitung und Mustererkennung. Themen umfassen Filterung, Kantenerkennung, Merkmalsextraktion, Bildsegmentierung sowie 3D-Rekonstruktion aus Bilddaten."><u>Computer Vision</u></span>
+                  <span id = 'cg-desc-js'><u>Computergrafik</u>, </span>
+                  <span id = 'cv-desc-js' ><u>Computer Vision</u></span>
                 </li>
               </ul>
             </details>
@@ -187,11 +142,7 @@
 
           <section class="card-base" aria-labelledby="skillsTitle">
             <h2 id="skillsTitle" class="section-header">🛠️ Skills & Sprachen</h2>
-            <div class="chip-list">
-              <span class="chip-item">Python</span><span class="chip-item">C/C++</span><span class="chip-item">SQL</span><span class="chip-item">HTML/CSS</span>
-              <span class="chip-item">OOP</span><span class="chip-item">Java</span><span class="chip-item">JavaScript</span><span class="chip-item">TypeScript</span><span class="chip-item">React</span>
-              <span class="chip-item">Git</span><span class="chip-item">Linux</span><span class="chip-item">Data Science</span><span class="chip-item">Arduino</span><span class="chip-item">Raspberry Pi</span>
-            </div>
+            <div class="chip-list skills-js"></div>
             <div class="chip-list" style="margin-top:10px">
               <span class="chip-item">Deutsch (C1)</span><span class="chip-item">Englisch (C1)</span><span class="chip-item">Kroatisch/Serbisch (C1)</span><span class="chip-item">Bosnisch (Muttersprache)</span>
             </div>
@@ -254,5 +205,6 @@
     <div id="popup" style="position:fixed;left:50%;transform:translateX(-50%);bottom:96px;background:var(--surface);border:1px solid var(--border);padding:10px 14px;border-radius:14px;box-shadow:var(--shadow);font-weight:700" hidden></div>
 
     <script type = "module" src="main.js"></script>
+    <script src="data/descriptions.js"></script>
   </body>
 </html>

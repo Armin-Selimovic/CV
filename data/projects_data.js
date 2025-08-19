@@ -1,10 +1,10 @@
 export const projects = [
 	{
 		name: "CV Site",
-		alt: "Alt placeholder",
+		alt: "cv_site_img",
 		img: "https://picsum.photos/seed/etl/640/360",
 		git_link: "https://github.com/Armin-Selimovic/My_CV_site",
-		description: "My wery own CV site. The site you're currently looking at.",
+		description: "My very own CV site. The site you're currently looking at.",
 		tags: [
 			"HTML",
 			"CSS",

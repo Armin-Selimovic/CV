@@ -1,4 +1,4 @@
-import { projects } from './data/projects.js';
+import { projects } from './data/projects_data.js';
 
 export function print_projects() {
 	let projects_html = ''
