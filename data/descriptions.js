@@ -1,5 +1,5 @@
 const descriptions = {
-	profile_desc: `<p>I enjoy exploring new ideas, whether through building small projects like this website or reading about random topics in neurology and psychology. In my free time, I also go to the gym (got to stay fit and prevent that backpain - I know you understand me here fellow engineer) and play computer games, both of which inspire my interest in technology, discipline, and problem-solving.<\p>
+	profile_desc: `<p>I enjoy exploring new ideas, whether through building small projects like this website or reading about random topics in neurology and psychology. In my free time, I also go to the gym and play computer games, both of which inspire my interest in technology, discipline, and problem-solving.<\p>
 
 	<p>While designing this site, I focused on making it visually appealing and mobile-friendly, and I enjoyed the creative process.<\p>`,
 	
