@@ -220,7 +220,11 @@ header.header-main {
   cursor: pointer;
   transition: transform .15s, box-shadow .2s, border-color .2s;
   color: var(--text);
+  font-size: 15px;
 }
+
+a.btn-base{ font-size: 15px; }
+.copy-details{ cursor: pointer; }
 
 .btn-base:hover {
   transform: translateY(-1px);
@@ -346,7 +350,6 @@ ul.list-clean li { margin: 8px 0; display: flex; gap: 8px; }
   }
 }
 
-
 .projects-table {
   display: grid;
   grid-template-columns: auto 1fr auto; /* side buttons auto, middle expands */
@@ -445,6 +448,7 @@ ul.list-clean li { margin: 8px 0; display: flex; gap: 8px; }
 }
 .dock-desktop .btn-base { border-radius: var(--radius); }
 @media (min-width: 900px) { .dock-desktop { display: flex; } }
+
 
 /* ==========================================================================
     8) Footer

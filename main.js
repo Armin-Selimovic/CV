@@ -60,6 +60,13 @@ function popup_Msg(message) {
   setTimeout(()=> popup.hidden = true, 1400);
 }
 
+document.getElementById('copyNumber')?.addEventListener('click', async()=>{
+  try{
+    await navigator.clipboard.writeText(phone);
+    popup_Msg('Nummer kopiert');
+  } catch {}
+});
+
 document.getElementById('copyEmail')?.addEventListener('click', async()=>{
   try{
     await navigator.clipboard.writeText(email);
