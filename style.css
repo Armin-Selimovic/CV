@@ -151,9 +151,19 @@ header.header-main {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.header-role { opacity: .9; font-weight: 600; }
+.header-role { opacity: .9; font-weight: 600;
+  line-height: 1.5;
+}
 
-.header-summary { margin-top: 10px; /*max-width: 65ch;*/ }
+.header-summary {
+  margin-top: 10px;
+  /*max-width: 65ch;*/
+  text-align: justify;            /* stretch lines to full width */
+  text-justify: inter-word;       /* word spacing (Word-like)   */
+  text-align-last: left;          /* last line not justified    */
+  hyphens: auto;                  /* allow hyphenation          */
+  line-height: 1.5;
+}
 
 /* Emoji Metrics — symmetric 3‑column block */
 .stats-grid {

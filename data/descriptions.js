@@ -1,5 +1,7 @@
 const descriptions = {
-	profile_desc: `I enjoy exploring new ideas, whether through building small projects like this website or reading about random topics in neurology and psychology. In my free time, I also go to the gym (got to stay fit and prevent that backpain - I know you understand me here fellow engineer) and play computer games, both of which inspire my interest in technology, discipline, and problem-solving. While designing this site, I focused on making it visually appealing and mobile-friendly, and I enjoyed the creative process.`,
+	profile_desc: `<p>I enjoy exploring new ideas, whether through building small projects like this website or reading about random topics in neurology and psychology. In my free time, I also go to the gym (got to stay fit and prevent that backpain - I know you understand me here fellow engineer) and play computer games, both of which inspire my interest in technology, discipline, and problem-solving.<\p>
+
+	<p>While designing this site, I focused on making it visually appealing and mobile-friendly, and I enjoyed the creative process.<\p>`,
 	
 	dat_alg: "Vermittelt Kenntnisse über effiziente Datenorganisation und Problemlösungsstrategien in der Informatik. Studierende lernen grundlegende Datenstrukturen (Listen, Bäume, Graphen etc.) und Algorithmendesign sowie die Analyse von Algorithmen.",
 
