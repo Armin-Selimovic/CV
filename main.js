@@ -96,7 +96,7 @@ const closeAllBtn = document.getElementById('collapseAll');
 //----Expand all details----
 //
 openAllBtn.addEventListener('click', () => {
-  document.querySelectorAll('details').forEach(detail => {
+  document.querySelectorAll('.details-js').forEach(detail => {
     detail.setAttribute('open', '');
   });
 });

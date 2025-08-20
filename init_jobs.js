@@ -4,7 +4,7 @@ export function print_jobs() {
 	let jobs_html = ''
 	
 	jobs.forEach( element => {
-	jobs_html += `<details class="details-item" ${element.status_bar}>
+	jobs_html += `<details class="details-item details-js" ${element.status_bar}>
             <summary>${element.name}<span class="details-period">${element.time}</span></summary>
             <ul class="list-clean">
 						${getPoints(element)}
