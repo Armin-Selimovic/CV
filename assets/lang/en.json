@@ -1,0 +1,113 @@
+{
+  "header": {
+    "role": "Aspiring Software Engineer · Computer Science Student (TU Graz)",
+    "status_badge": "✨ Immediately available for entry-level positions",
+    "contact": {
+      "location": "📍 Graz, Austria"
+    },
+    "profile_desc_1": "I enjoy exploring new ideas, whether through building small projects like this website or reading about random topics in neurology and psychology. In my free time, I also go to the gym and play computer games, both of which inspire my interest in technology, discipline, and problem-solving.",
+    "profile_desc_2": "While designing this site, I focused on making it visually appealing and mobile-friendly, and I enjoyed the creative process."
+  },
+
+  "actions": {
+    "cv": "💾 CV",
+    "theme": "🌗 Theme",
+    "cv_title": "Open CV",
+    "theme_title": "Change theme",
+    "vcard_title": "Get vCard",
+    "email_title": "Send E-Mail"
+  },
+
+  "stats": {
+    "languages_label": "Languages",
+    "languages_value": "DE • EN • CR/SR • BS",
+    "focus_label": "Focus",
+    "focus_value": "Web • Data • Systems",
+    "next_label": "Next Up",
+    "next_value": "TypeScript · React · Node.js · PostgreSQL"
+  },
+
+  "sections": {
+    "experience_title": "💼 Work experience",
+    "open_all": "Open all",
+    "close_all": "Close all",
+
+    "education_title": "🎓 Education",
+    "skills_title": "🛠️ Skills & Languages",
+    "projects_title": "🧩 GitHub Projects"
+  },
+
+  "education": {
+    "cs_summary": "B.Sc. Computer Science (ongoing) - TU Graz",
+    "cs_period": "2021 – today",
+    "hs_summary": "Computer engineer (Diplom) - HS Electrical engineering, Tuzla",
+    "hs_period": "2014 – 2018",
+
+    "cs_bullet_1": "✔️ Basics: ",
+    "cs_bullet_1a": "Data structures",
+    "cs_bullet_1b": "Algorithms",
+    "cs_bullet_1c": "Statistics",
+    "cs_bullet_1d": "Discrete mathematics",
+
+    "cs_bullet_2": "✔️ Software technology: C, C++, ",
+    "cs_bullet_2a": "HCI",
+    "cs_bullet_2b": "Operating systems",
+    "cs_bullet_2c": "Declarative programming",
+
+    "cs_bullet_3": "✔️ Information processing: ",
+    "cs_bullet_3a": "Low level programming",
+    "cs_bullet_3b": "Data management",
+    "cs_bullet_3c": "SQL, NoSQL",
+    "cs_bullet_3d": "Data Science",
+    "cs_bullet_3e": "Machine Learning",
+
+    "cs_bullet_4": "✔️ Graphics & Image processing: ",
+    "cs_bullet_4a": "Computer graphics",
+    "cs_bullet_4b": "Computer Vision",
+
+    "hs_bullet_1": "✔️ Programming languages: C, C++, C#, Flow Code etc.",
+    "hs_bullet_2": "✔️ Web development: HTML, CSS",
+    "hs_bullet_3": "✔️ Databases: SQL, PostgreSQL",
+    "hs_bullet_4": "✔️ Technologies: Arduino, Raspberry Pi, 3D printing etc."
+  },
+
+  "faq": {
+    "q_roles": "Which roles?",
+    "a_roles": "• Working Student / Junior Software Engineer.",
+    "q_strengths": "Personal strengths?",
+    "a_strengths": [
+      "• Flexible & resilient",
+      "• Adaptive & independent",
+      "• Social & communicative",
+      "• Punctual & reliable",
+      "• Attentive & focused",
+      "• Cooperative & open-minded"
+    ],
+    "q_availability": "Availability?",
+    "a_availability": "• Flexible starting immediately; part-time during studies, full-time after graduation."
+  },
+
+  "footer": "© 2025 Armin Selimović • Graz, Austria",
+
+  "docks": {
+    "mobile": { "mail": "Mail", "call": "Call", "pdf": "CV", "vcard": "vCard" },
+    "desktop_titles": { "mail": "E-Mail", "call": "Call", "cv": "CV", "vcard": "vCard" }
+  },
+
+	"descriptions": {
+    "profile_html": "<p>I enjoy exploring new ideas, whether through building small projects like this website or reading about random topics in neurology and psychology. In my free time, I also go to the gym and play computer games, both of which inspire my interest in technology, discipline, and problem-solving.</p><p>While designing this site, I focused on making it visually appealing and mobile-friendly, and I enjoyed the creative process.</p>",
+
+    "dat_alg_title": "Teaches knowledge about efficient data organization and problem-solving strategies in computer science. Students learn basic data structures (lists, trees, graphs, etc.) and algorithm design as well as algorithm analysis.",
+    "stat_disc_title": "Mathematical fundamentals (e.g., logic, set theory, graph theory, probability theory) form an important part of the program. This knowledge underpins the understanding of algorithms and computer science theory.",
+    "hci_title": "Fundamentals of usability and interface development. Students learn user-centered UI/UX methods (usability engineering, prototyping, usability testing). They understand how to design intuitive user interfaces and evaluate them using heuristic evaluation and thinking-aloud tests.",
+    "bet_sys_title": "Fundamental concepts of operating systems, such as process and thread management, memory management, parallelism, and synchronization, are taught in a practical manner. Students gain experience in system-oriented programming and understand how operating systems schedule tasks and manage resources.",
+    "dek_prog_title": "In addition to object-oriented programming, functional and logical programming approaches are also covered. This trains students to understand different software paradigms and enables them to quickly learn new programming languages and concepts.",
+
+    "llp_title": "We dived deep into system-level programming concepts, refining and understanding of low-level operations in C/C++. Topics include: Memory behavior, dynamic allocation, and fault-aware memory management; process and thread control using POSIX APIs (fork, exec, waitpid, pipes, threads); synchronization mechanisms (semaphores, mutexes, condition variables, spinlocks); memory-mapped I/O and shared memory with POSIX. Learned: a solid grasp of system-level OS interfaces in C and C++; mastery over synchronization constructs and inter-process/thread communication; preparedness for advanced OS studies and real-world systems programming.",
+
+    "dat_mng_title": "Design and management of databases and data storage systems. Students learn about relational databases (ER model, SQL, relational algebra, normalization) and modern data management including NoSQL, distributed file systems, stream processing, and large-scale data integration.",
+    "dat_mac_title": "Fundamentals of data preparation, exploration, statistical analysis, and modeling. Includes data mining, classification, clustering, model evaluation, and data visualization.",
+    "cg_title": "Introduction to 2D and 3D graphics pipelines, transformations, lighting models, and rendering techniques. Includes geometry processing, shader programming, image synthesis, and fundamentals of real-time and ray tracing techniques.",
+    "cv_title": "Fundamentals of image processing and pattern recognition. Topics include filtering, edge detection, feature extraction, image segmentation, and 3D reconstruction from image data."
+  }
+}

@@ -171,3 +171,17 @@ function scrollByStep(grid, dir) {
   const dist = stepOneCard(grid);
   grid.scrollBy({ left: dir * dist, behavior: "smooth" });
 }
+
+/* ========================================================================== */
+//----Chagne Language-----
+//
+const languageButton = document.querySelector('.change-language-js');
+
+languageButton.addEventListener('click', () => {
+  if(languageButton.innerHTML === '🇩🇪')
+    languageButton.innerHTML = '🇬🇧';
+  else
+    languageButton.innerHTML = '🇩🇪';
+
+  
+});

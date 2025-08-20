@@ -3,15 +3,16 @@ const descriptions = {
 
 	<p>While designing this site, I focused on making it visually appealing and mobile-friendly, and I enjoyed the creative process.<\p>`,
 	
-	dat_alg: "Vermittelt Kenntnisse über effiziente Datenorganisation und Problemlösungsstrategien in der Informatik. Studierende lernen grundlegende Datenstrukturen (Listen, Bäume, Graphen etc.) und Algorithmendesign sowie die Analyse von Algorithmen.",
+	dat_alg: 'Teaches knowledge about efficient data organization and problem-solving strategies in computer science. Students learn basic data structures (lists, trees, graphs, etc.) and algorithm design as well as algorithm analysis.',
 
-	stat_disc: "Mathematische Grundlagen (z. B. Logik, Mengenlehre, Graphentheorie, Wahrscheinlichkeitstheorie) bilden einen wichtigen Teil der Ausbildung. Diese Kenntnisse untermauern das Verständnis für Algorithmen und Informatiktheorie.",
+	stat_disc: "Mathematical fundamentals (e.g., logic, set theory, graph theory, probability theory) form an important part of the program. This knowledge underpins the understanding of algorithms and computer science theory.",
 
-	hci: "Grundlagen der Usability und Interface-Entwicklung. Studierende lernen benutzerzentrierte UI/UX-Methoden (Usability Engineering, Prototyping, Usability Testing) kennen. Sie verstehen, wie man intuitive Benutzeroberflächen entwirft, evaluieren diese mittels heuristischer Evaluation und Thinking-Aloud-Tests.",
+	hci: "Fundamentals of usability and interface development. Students learn user-centered UI/UX methods (usability engineering, prototyping, usability testing). They understand how to design intuitive user interfaces and evaluate them using heuristic evaluation and thinking-aloud tests.",
 
-	bet_sys: "Grundlegende Konzepte von Betriebssystemen, wie Prozess- und Thread-Management, Speicherverwaltung, Parallelität und Synchronisation, werden praxisnah vermittelt. Die Studierenden sammeln Erfahrung in systemnaher Programmierung und verstehen, wie Betriebssysteme Aufgaben planen und Ressourcen verwalten.",
+	bet_sys: "Fundamental concepts of operating systems, such as process and thread management, memory management, parallelism, and synchronization, are taught in a practical manner. Students gain experience in system-oriented programming and understand how operating systems schedule tasks and manage resources.",
 
-	dek_prog: "Ergänzend zur objektorientierten Programmierung wurden funktionale und logische Programmieransätze behandelt. Dies schult das Verständnis verschiedener Softwareparadigmen und befähigt, neue Programmiersprachen und Konzepte rasch zu erlernen.",
+	dek_prog: "In addition to object-oriented programming, functional and logical programming approaches are also covered. This trains students to understand different software paradigms and enables them to quickly learn new programming languages and concepts.",
+
 
 	llp: `We dived deep into system-level programming concepts, refining and understanding of low-level operations in C/C++. Topics include:
 		-Memory behavior, dynamic allocation, and fault-aware memory management
@@ -24,13 +25,13 @@ const descriptions = {
                   - Mastery over synchronization constructs and inter-process/thread communication
                   - Preparedness for advanced OS studies and real-world systems programming`,
 
-	dat_mng: "Entwurf und Verwaltung von Datenbanken sowie Datenhaltungssystemen. Studierende lernen relationale Datenbanken (ER-Modell, SQL, Relationale Algebra und Normalisierung) und modernes Data Management kennen. Dazu gehören NoSQL-Datenbanken, verteilte Dateisysteme, Datenstromverarbeitung und Techniken zur Integration und Verarbeitung großer Datenmengen",
+		dat_mng: "Design and management of databases and data storage systems. Students learn about relational databases (ER model, SQL, relational algebra, and normalization) and modern data management. This includes NoSQL databases, distributed file systems, data stream processing, and techniques for integrating and processing large amounts of data.",
 
-	dat_mac: "Grundlagen der Datenaufbereitung, Exploration, statistischen Analyse und Modellbildung. Beinhaltet Data Mining, Klassifikation, Clustering, Modellbewertung und Datenvisualisierung.",
+		dat_mac: "Fundamentals of data preparation, exploration, statistical analysis, and modeling. Includes data mining, classification, clustering, model evaluation, and data visualization.",
 
-	cg: "Einführung in 2D- und 3D-Grafikpipelines, Transformationen, Beleuchtungsmodelle und Renderingverfahren. Beinhaltet Geometrieverarbeitung, Shader-Programmierung, Bildsynthese und Grundlagen der Echtzeit- sowie Raytracing-Techniken.",
+    cg: "Introduction to 2D and 3D graphics pipelines, transformations, lighting models, and rendering techniques. Includes geometry processing, shader programming, image synthesis, and fundamentals of real-time and ray tracing techniques.",
 
-	cv: "Grundlagen der Bildverarbeitung und Mustererkennung. Themen umfassen Filterung, Kantenerkennung, Merkmalsextraktion, Bildsegmentierung sowie 3D-Rekonstruktion aus Bilddaten."
+    cv: "Fundamentals of image processing and pattern recognition. Topics include filtering, edge detection, feature extraction, image segmentation, and 3D reconstruction from image data."
 }
 
 document.getElementById('header-description-js').innerHTML = descriptions.profile_desc;

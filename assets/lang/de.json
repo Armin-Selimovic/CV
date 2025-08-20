@@ -1,0 +1,113 @@
+{
+  "header": {
+    "role": "Aspiring Software Engineer · Informatik-Student (TU Graz)",
+    "status_badge": "✨ Sofort verfügbar für Einstiegspositionen",
+    "contact": {
+      "location": "📍 Graz, Österreich"
+    },
+    "profile_desc_1": "Ich entdecke gern neue Ideen – durch kleine Projekte wie diese Website oder beim Lesen über Themen aus Neurologie und Psychologie. In meiner Freizeit gehe ich ins Fitnessstudio und spiele Computerspiele – beides stärkt mein Interesse an Technologie, Disziplin und Problemlösung.",
+    "profile_desc_2": "Beim Gestalten dieser Seite habe ich Wert auf eine ansprechende Optik und gute Nutzung am Smartphone gelegt – den kreativen Prozess habe ich sehr genossen."
+  },
+
+  "actions": {
+    "cv": "💾 Lebenslauf",
+    "theme": "🌗 Thema",
+    "cv_title": "Lebenslauf öffnen",
+    "theme_title": "Thema ändern",
+    "vcard_title": "vCard herunterladen",
+    "email_title": "E-Mail senden"
+  },
+
+  "stats": {
+    "languages_label": "Sprachen",
+    "languages_value": "DE • EN • KR/SR • BS",
+    "focus_label": "Fokus",
+    "focus_value": "Web • Data • Systems",
+    "next_label": "Next Up",
+    "next_value": "TypeScript · React · Node.js · PostgreSQL"
+  },
+
+  "sections": {
+    "experience_title": "💼 Berufserfahrung",
+    "open_all": "Alle öffnen",
+    "close_all": "Alle schließen",
+
+    "education_title": "🎓 Bildung",
+    "skills_title": "🛠️ Skills & Sprachen",
+    "projects_title": "🧩 GitHub-Projekte"
+  },
+
+  "education": {
+    "cs_summary": "B.Sc. Informatik (laufend) – TU Graz",
+    "cs_period": "2021 – heute",
+    "hs_summary": "Computertechniker (Diplom) – HS Elektrotechnik, Tuzla",
+    "hs_period": "2014 – 2018",
+
+    "cs_bullet_1": "✔️ Grundlagen: ",
+    "cs_bullet_1a": "Datenstrukturen",
+    "cs_bullet_1b": "Algorithmen",
+    "cs_bullet_1c": "Statistik",
+    "cs_bullet_1d": "Diskrete Mathematik",
+
+    "cs_bullet_2": "✔️ Softwaretechnik: C, C++, ",
+    "cs_bullet_2a": "HCI",
+    "cs_bullet_2b": "Betriebssysteme",
+    "cs_bullet_2c": "Deklarative Programmierung",
+
+    "cs_bullet_3": "✔️ Informationsverarbeitung: ",
+    "cs_bullet_3a": "Low-Level-Programmierung",
+    "cs_bullet_3b": "Datenmanagement",
+    "cs_bullet_3c": "SQL, NoSQL",
+    "cs_bullet_3d": "Data Science",
+    "cs_bullet_3e": "Machine Learning",
+
+    "cs_bullet_4": "✔️ Grafik & Bildverarbeitung: ",
+    "cs_bullet_4a": "Computergrafik",
+    "cs_bullet_4b": "Computer Vision",
+
+    "hs_bullet_1": "✔️ Programmiersprachen: C, C++, C#, Flow Code u.a.",
+    "hs_bullet_2": "✔️ Webentwicklung: HTML, CSS",
+    "hs_bullet_3": "✔️ Datenbanken: SQL, PostgreSQL",
+    "hs_bullet_4": "✔️ Technologien: Arduino, Raspberry Pi, 3D-Druck u.a."
+  },
+
+  "faq": {
+    "q_roles": "Welche Rollen?",
+    "a_roles": "• Werkstudent / Junior Software Engineer.",
+    "q_strengths": "Persönliche Stärken?",
+    "a_strengths": [
+      "• Flexibel & belastbar",
+      "• Lernfähig & selbstständig",
+      "• Sozial & kommunikativ",
+      "• Pünktlich & zuverlässig",
+      "• Aufmerksam & fokussiert",
+      "• Kooperativ & aufgeschlossen"
+    ],
+    "q_availability": "Verfügbarkeit?",
+    "a_availability": "• Flexibel ab sofort; Teilzeit während des Studiums, Vollzeit nach Abschluss."
+  },
+
+  "footer": "© 2025 Armin Selimović • Graz, Österreich",
+
+  "docks": {
+    "mobile": { "mail": "Mail", "call": "Anrufen", "pdf": "CV", "vcard": "vCard" },
+    "desktop_titles": { "mail": "E-Mail", "call": "Anrufen", "cv": "CV", "vcard": "vCard" }
+  },
+
+	"descriptions": {
+    "profile_html": "<p>Ich entdecke gern neue Ideen – durch kleine Projekte wie diese Website oder beim Lesen über Themen aus Neurologie und Psychologie. In meiner Freizeit gehe ich ins Fitnessstudio und spiele Computerspiele – beides stärkt mein Interesse an Technologie, Disziplin und Problemlösung.</p><p>Beim Gestalten dieser Seite habe ich Wert auf eine ansprechende Optik und gute Nutzung am Smartphone gelegt – den kreativen Prozess habe ich sehr genossen.</p>",
+
+    "dat_alg_title": "Vermittelt Wissen zur effizienten Datenorganisation und zu Problemlösungsstrategien in der Informatik. Studierende lernen grundlegende Datenstrukturen (Listen, Bäume, Graphen etc.), Algorithmenentwurf sowie die Analyse von Algorithmen.",
+    "stat_disc_title": "Mathematische Grundlagen (z. B. Logik, Mengenlehre, Graphentheorie, Wahrscheinlichkeitsrechnung) sind ein zentraler Bestandteil. Dieses Wissen bildet die Basis für das Verständnis von Algorithmen und Informatiktheorie.",
+    "hci_title": "Grundlagen der Usability und Interface-Entwicklung. Studierende lernen nutzerzentrierte UI/UX-Methoden (Usability Engineering, Prototyping, Usability-Tests) und können intuitive Oberflächen gestalten und z. B. mit Heuristiken oder Thinking-Aloud evaluieren.",
+    "bet_sys_title": "Grundkonzepte von Betriebssystemen wie Prozess- und Thread-Verwaltung, Speicherverwaltung, Parallelität und Synchronisation werden praxisnah vermittelt. Studierende sammeln Erfahrung in systemnaher Programmierung und verstehen Scheduling und Ressourcenverwaltung.",
+    "dek_prog_title": "Ergänzend zur objektorientierten Programmierung werden funktionale und logische Paradigmen behandelt. Das fördert das Verständnis unterschiedlicher Ansätze und erleichtert das Erlernen neuer Sprachen und Konzepte.",
+
+    "llp_title": "Vertiefung in systemnahe Programmierung und low-level Operationen in C/C++. Inhalte: Speicherverhalten, dynamische Allokation, fehlertolerantes Speichermanagement; Prozess- und Thread-Kontrolle über POSIX (fork, exec, waitpid, Pipes, Threads); Synchronisationsmechanismen (Semaphore, Mutexe, Condition-Variablen, Spinlocks); Memory-Mapped I/O und Shared Memory. Gelernt: fundiertes Verständnis der OS-Schnittstellen in C/C++; sichere Anwendung von Synchronisation und Interprozess-/Thread-Kommunikation; gute Vorbereitung auf weiterführende OS-Themen und Praxis.",
+    
+    "dat_mng_title": "Entwurf und Verwaltung von Datenbanken und Speichersystemen. Relationale Datenbanken (ER-Modell, SQL, relationale Algebra, Normalisierung) und moderne Datenhaltung inkl. NoSQL, verteilte Dateisysteme, Stream Processing und Integration großer Datenmengen.",
+    "dat_mac_title": "Grundlagen der Datenaufbereitung, Exploration, statistischen Analyse und Modellierung. Umfasst Data Mining, Klassifikation, Clustering, Modellevaluierung und Datenvisualisierung.",
+    "cg_title": "Einführung in 2D/3D-Grafikpipelines, Transformationen, Beleuchtungsmodelle und Rendering. Beinhaltet Geometrieverarbeitung, Shader-Programmierung, Bildsynthese sowie Grundlagen von Echtzeit- und Raytracing-Verfahren.",
+    "cv_title": "Grundlagen der Bildverarbeitung und Mustererkennung: Filtern, Kantendetektion, Merkmalsextraktion, Segmentierung und 3D-Rekonstruktion aus Bilddaten."
+  }
+}
