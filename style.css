@@ -1,5 +1,5 @@
 /* ==========================================================================
-    Armin Selimović — CV
+    Armin Selimović - CV
    ========================================================================== */
 
 /* ==========================================================================
@@ -61,6 +61,7 @@ body {
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
 
+
 /* ==========================================================================
     2) Layout Helpers
    -------------------------------------------------------------------------- */
@@ -75,8 +76,6 @@ img { max-width: 100%; display: block; }
 .u-grid { display: grid; gap: 1rem; }
 .u-flex { display: flex; gap: .5rem; }
 .u-center { display: grid; place-items: center; }
-
-
 
 /* ==========================================================================
     3) Header / Hero
@@ -247,6 +246,17 @@ header.header-main {
 }
 .btn-group .btn-base { width: 100%; }
 @media (min-width: 720px) { .btn-group { grid-template-columns: repeat(4, 1fr); } }
+
+@media (max-width: 760px) {
+
+  .beruf-layout-js{
+    flex-direction: column;
+    align-items: stretch; /* make children span full width */
+  }
+
+  .expand-btns-js{ margin-left: 0; width: 100%; }
+  .expand-btns-js .btn-compact { width: 100%; }
+}
 
 /* ==========================================================================
     5) Main Layout & Cards

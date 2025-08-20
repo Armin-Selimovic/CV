@@ -53,7 +53,7 @@
           <!-- Unified Button Container -->
           <div class="btn-group no-print" role="group" aria-label="Aktionen">
 
-            <a href="assets/Armin_Selimovic_Lebenslauf.pdf" class="btn-base btn-primary" id="btnPrint" title="Check CV">💾<span>CV</span></a>
+            <a href="assets/Armin_Selimovic_Lebenslauf.pdf" target="_blank" class="btn-base btn-primary" id="btnPrint" title="Check CV">💾<span>CV</span></a>
             <button class="btn-base btn-ghost" id="themeToggle" aria-pressed="false" title="Change theme">🌗 <span>Thema</span></button>
             <a class="btn-base btn-outline" id="vcard" download="armin-selimovic.vcf" title="Get vCard">📇 <span>vCard</span></a>
             <button class="btn-base btn-ghost" id="copyEmail" title="Copy E-Mail">✉️ <span>E-Mail</span></button>
@@ -88,9 +88,9 @@
 
       <main id="main" class="layout-grid">
         <section aria-labelledby="expTitle">
-          <div class="section-header">
+          <div class="section-header beruf-layout-js">
             <h2 id="expTitle">💼 Berufserfahrung</h2>
-            <div class="no-print" style="display:flex;gap:8px">
+            <div class="no-print expand-btns-js" style="display:flex; gap:8px">
               <button type="button" class="btn-base btn-compact" id="expandAll">Alle öffnen</button>
               <button type="button" class="btn-base btn-compact" id="collapseAll">Alle schließen</button>
             </div>
@@ -199,13 +199,13 @@
         </aside>
       </main>
 
-      <footer class="site-footer">Mobile‑First • GitHub Projekte</footer>
+      <footer class="site-footer">© 2025 Armin Selimović • Graz, Austria</footer>
     </div>
 
     <nav class="dock-mobile no-print" role="navigation" aria-label="Schnellaktionen (mobil)">
       <a class="btn-base btn-primary" href="mailto:armin.selimovic24@gmail.com" aria-label="Kontakt">Mail</a>
       <a class="btn-base" href="tel:+4367762873247" aria-label="Anrufen">Anrufen</a>
-      <a class="btn-base" href="assets/Armin_Selimovic_Lebenslauf.pdf" aria-label="PDF">CV</a>
+      <a class="btn-base" href="assets/Armin_Selimovic_Lebenslauf.pdf" target="_blank" aria-label="PDF">CV</a>
 
       <a class="btn-base btn-outline" id="dockVcard" download="armin-selimovic.vcf" aria-label="vCard">vCard</a>
     </nav>
@@ -213,7 +213,7 @@
     <nav class="dock-desktop no-print" role="navigation" aria-label="Schnellaktionen (Desktop)">
       <a class="btn-base btn-icon btn-primary" href="mailto:armin.selimovic24@gmail.com" title="E-Mail">✉️</a>
       <a class="btn-base btn-icon" href="tel:+4367762873247" title="Anrufen">📞</a>
-      <a class="btn-base btn-icon" href="assets/Armin_Selimovic_Lebenslauf.pdf" title="Lebenslauf">🖨️</a>
+      <a class="btn-base btn-icon" href="assets/Armin_Selimovic_Lebenslauf.pdf" target="_blank" title="Lebenslauf">🖨️</a>
       <a class="btn-base btn-icon btn-outline" id="deskVcard" download="armin-selimovic.vcf" title="vCard">📇</a>
     </nav>
 
