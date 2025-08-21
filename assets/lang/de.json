@@ -22,9 +22,7 @@
     "languages_label": "Sprachen",
     "languages_value": "DE • EN • KR/SR • BS",
     "focus_label": "Fokus",
-    "focus_value": "Web • Data • Systems",
-    "next_label": "Next Up",
-    "next_value": "TypeScript · React · Node.js · PostgreSQL"
+    "next_label": "Next Up"
   },
 
   "sections": {
@@ -97,17 +95,30 @@
 	"descriptions": {
     "profile_html": "<p>Ich entdecke gern neue Ideen – durch kleine Projekte wie diese Website oder beim Lesen über Themen aus Neurologie und Psychologie. In meiner Freizeit gehe ich ins Fitnessstudio und spiele Computerspiele – beides stärkt mein Interesse an Technologie, Disziplin und Problemlösung.</p><p>Beim Gestalten dieser Seite habe ich Wert auf eine ansprechende Optik und gute Nutzung am Smartphone gelegt – den kreativen Prozess habe ich sehr genossen.</p>",
 
-    "dat_alg_title": "Vermittelt Wissen zur effizienten Datenorganisation und zu Problemlösungsstrategien in der Informatik. Studierende lernen grundlegende Datenstrukturen (Listen, Bäume, Graphen etc.), Algorithmenentwurf sowie die Analyse von Algorithmen.",
-    "stat_disc_title": "Mathematische Grundlagen (z. B. Logik, Mengenlehre, Graphentheorie, Wahrscheinlichkeitsrechnung) sind ein zentraler Bestandteil. Dieses Wissen bildet die Basis für das Verständnis von Algorithmen und Informatiktheorie.",
-    "hci_title": "Grundlagen der Usability und Interface-Entwicklung. Studierende lernen nutzerzentrierte UI/UX-Methoden (Usability Engineering, Prototyping, Usability-Tests) und können intuitive Oberflächen gestalten und z. B. mit Heuristiken oder Thinking-Aloud evaluieren.",
-    "bet_sys_title": "Grundkonzepte von Betriebssystemen wie Prozess- und Thread-Verwaltung, Speicherverwaltung, Parallelität und Synchronisation werden praxisnah vermittelt. Studierende sammeln Erfahrung in systemnaher Programmierung und verstehen Scheduling und Ressourcenverwaltung.",
-    "dek_prog_title": "Ergänzend zur objektorientierten Programmierung werden funktionale und logische Paradigmen behandelt. Das fördert das Verständnis unterschiedlicher Ansätze und erleichtert das Erlernen neuer Sprachen und Konzepte.",
+    "dat_alg_title": "Vermittelt Kenntnisse über effiziente Datenorganisation und Problemlösungsstrategien in der Informatik. Studierende lernen grundlegende Datenstrukturen (Listen, Bäume, Graphen etc.) und Algorithmendesign sowie die Analyse von Algorithmen.",
+    "stat_disc_title": "Mathematische Grundlagen (z. B. Logik, Mengenlehre, Graphentheorie, Wahrscheinlichkeitstheorie) bilden einen wichtigen Teil der Ausbildung. Diese Kenntnisse untermauern das Verständnis für Algorithmen und Informatiktheorie.",
+    "hci_title": "Grundlagen der Usability und Interface-Entwicklung. Studierende lernen benutzerzentrierte UI/UX-Methoden (Usability Engineering, Prototyping, Usability Testing) kennen. Sie verstehen, wie man intuitive Benutzeroberflächen entwirft, evaluieren diese mittels heuristischer Evaluation und Thinking-Aloud-Tests.",
+    "bet_sys_title": "Grundlegende Konzepte von Betriebssystemen, wie Prozess- und Thread-Management, Speicherverwaltung, Parallelität und Synchronisation, werden praxisnah vermittelt. Die Studierenden sammeln Erfahrung in systemnaher Programmierung und verstehen, wie Betriebssysteme Aufgaben planen und Ressourcen verwalten.",
+    "dek_prog_title": "Ergänzend zur objektorientierten Programmierung wurden funktionale und logische Programmieransätze behandelt. Dies schult das Verständnis verschiedener Softwareparadigmen und befähigt, neue Programmiersprachen und Konzepte rasch zu erlernen.",
 
     "llp_title": "Vertiefung in systemnahe Programmierung und low-level Operationen in C/C++. Inhalte: Speicherverhalten, dynamische Allokation, fehlertolerantes Speichermanagement; Prozess- und Thread-Kontrolle über POSIX (fork, exec, waitpid, Pipes, Threads); Synchronisationsmechanismen (Semaphore, Mutexe, Condition-Variablen, Spinlocks); Memory-Mapped I/O und Shared Memory. Gelernt: fundiertes Verständnis der OS-Schnittstellen in C/C++; sichere Anwendung von Synchronisation und Interprozess-/Thread-Kommunikation; gute Vorbereitung auf weiterführende OS-Themen und Praxis.",
     
-    "dat_mng_title": "Entwurf und Verwaltung von Datenbanken und Speichersystemen. Relationale Datenbanken (ER-Modell, SQL, relationale Algebra, Normalisierung) und moderne Datenhaltung inkl. NoSQL, verteilte Dateisysteme, Stream Processing und Integration großer Datenmengen.",
-    "dat_mac_title": "Grundlagen der Datenaufbereitung, Exploration, statistischen Analyse und Modellierung. Umfasst Data Mining, Klassifikation, Clustering, Modellevaluierung und Datenvisualisierung.",
-    "cg_title": "Einführung in 2D/3D-Grafikpipelines, Transformationen, Beleuchtungsmodelle und Rendering. Beinhaltet Geometrieverarbeitung, Shader-Programmierung, Bildsynthese sowie Grundlagen von Echtzeit- und Raytracing-Verfahren.",
-    "cv_title": "Grundlagen der Bildverarbeitung und Mustererkennung: Filtern, Kantendetektion, Merkmalsextraktion, Segmentierung und 3D-Rekonstruktion aus Bilddaten."
+    "dat_mng_title": "Entwurf und Verwaltung von Datenbanken sowie Datenhaltungssystemen. Studierende lernen relationale Datenbanken (ER-Modell, SQL, Relationale Algebra und Normalisierung) und modernes Data Management kennen. Dazu gehören NoSQL-Datenbanken, verteilte Dateisysteme, Datenstromverarbeitung und Techniken zur Integration und Verarbeitung großer Datenmengen",
+
+    "dat_mac_title": "Grundlagen der Datenaufbereitung, Exploration, statistischen Analyse und Modellbildung. Beinhaltet Data Mining, Klassifikation, Clustering, Modellbewertung und Datenvisualisierung.",
+    "cg_title": "Einführung in 2D- und 3D-Grafikpipelines, Transformationen, Beleuchtungsmodelle und Renderingverfahren. Beinhaltet Geometrieverarbeitung, Shader-Programmierung, Bildsynthese und Grundlagen der Echtzeit- sowie Raytracing-Techniken.",
+    "cv_title": "Grundlagen der Bildverarbeitung und Mustererkennung. Themen umfassen Filterung, Kantenerkennung, Merkmalsextraktion, Bildsegmentierung sowie 3D-Rekonstruktion aus Bilddaten."
+  },
+  "jobs": {
+    "job_1": "Lieferant — Wienerwirt e.U., Graz",
+    "job_2": "Logistik-Mitarbeiter — Temmel Logistic / Magna, Graz",
+    "job_3": "Disponent — MNM Transport Services LLC, Michigan (USA)",
+
+    "job_2_1": "🗂️ Liefer- & Materiallogistik.",
+    "job_2_2": "📦 Kommissionierung Lean-Management-System.",
+    "job_2_3": "🤝 Organisation & Schnittstelle Produktionsteam.",
+
+    "job_3_1": "📄 Auftragsverhandlung Güterverkehr.",
+    "job_3_2": "🚛 Transport- & Warenlogistik."
   }
 }

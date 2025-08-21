@@ -22,9 +22,7 @@
     "languages_label": "Languages",
     "languages_value": "DE • EN • CR/SR • BS",
     "focus_label": "Focus",
-    "focus_value": "Web • Data • Systems",
-    "next_label": "Next Up",
-    "next_value": "TypeScript · React · Node.js · PostgreSQL"
+    "next_label": "Next Up"
   },
 
   "sections": {
@@ -109,5 +107,17 @@
     "dat_mac_title": "Fundamentals of data preparation, exploration, statistical analysis, and modeling. Includes data mining, classification, clustering, model evaluation, and data visualization.",
     "cg_title": "Introduction to 2D and 3D graphics pipelines, transformations, lighting models, and rendering techniques. Includes geometry processing, shader programming, image synthesis, and fundamentals of real-time and ray tracing techniques.",
     "cv_title": "Fundamentals of image processing and pattern recognition. Topics include filtering, edge detection, feature extraction, image segmentation, and 3D reconstruction from image data."
+  },
+    "jobs": {
+    "job_1": "Delivery - Wienerwirt e.U., Graz",
+    "job_2": "Logistics employee - Temmel Logistic / Magna, Graz",
+    "job_3": "Dispacher - MNM Transport Services LLC, Michigan (USA)",
+
+    "job_2_1": "🗂️ Delivery & Material Logistics.",
+    "job_2_2": "📦 Commissioning Lean-Management-System.",
+    "job_2_3": "🤝 Organisation & Production team.",
+
+    "job_3_1": "📄 Contract negotiations for freight transport.",
+    "job_3_2": "🚛 Transport & goods logistics."
   }
 }
