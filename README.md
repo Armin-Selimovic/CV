@@ -21,6 +21,3 @@ It highlights my skills, education, work experience, and projects, and provides 
 - **Multi-language ready** — text content structured for translations (EN/DE)
 
 ---
-
-## 📂 Project Structure
-
