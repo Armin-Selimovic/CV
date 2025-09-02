@@ -82,5 +82,17 @@ export const projects = [
 			"CSS",
 			"JavaScript"
 		]
+	},
+	{
+		name: "Pomodoro",
+		alt: "Pomodoro",
+		img: "images/projects/pomodoro.png",
+		git_link: "https://github.com/Armin-Selimovic/Pomodoro",
+		description: "The current project that im working on to help with focus. Features: login, a timer with history, todo list, stats.",
+		tags: [
+			"React",
+			"CSS",
+			"TypeScript"
+		]
 	}
 ]
