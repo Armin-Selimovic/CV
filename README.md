@@ -1,11 +1,11 @@
-# Personal CV Website 🌐💼
+# Personal CV Website
 
 A responsive and mobile-friendly **personal CV/portfolio website**, built with **HTML, CSS, and JavaScript**.
 It highlights my skills, education, work experience, and projects, and provides quick access to my CV (PDF), contact details, and GitHub repositories.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Responsive design** — adapts to desktop and mobile
 - **Theme toggle** — light/dark mode support
