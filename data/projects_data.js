@@ -92,7 +92,21 @@ export const projects = [
 		tags: [
 			"React",
 			"CSS",
-			"TypeScript"
+			"TypeScript",
+			"HTML"
+		]
+	},
+	{
+		name: "ChatBot",
+		alt: "ChatBot",
+		img: "images/projects/chatbot.png",
+		git_link: "https://github.com/Armin-Selimovic/Chatbot",
+		description: "A simple chat bot. A small project I build while following a tutorial and played around because my goal was learning React. I'm putting it here because i like it.",
+		tags: [
+			"React",
+			"CSS",
+			"JavaScript",
+			"HTML"
 		]
 	}
 ]
